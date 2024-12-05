@@ -1,0 +1,23 @@
+.title {
+	display: flex;
+	width: calc(100vw - 4rem);
+	justify-content: space-between;
+	flex-direction: row;
+	h1 {
+		font-family: var(--font-major);
+		font-weight: 400;
+		font-size: 10rem;
+	}
+}
+.title-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main-title-container {
+	height: 100vh;
+}

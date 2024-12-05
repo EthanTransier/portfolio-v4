@@ -1,0 +1,35 @@
+.home-main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	// padding: 2rem;
+	#h2 {
+		visibility: hidden;
+	}
+}
+.main-title-container {
+	.home {
+		height: calc(100vh - 100vh / 6);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		.link {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+		.highlight {
+			backdrop-filter: invert(1);
+			width: 0vw;
+			height: 160px;
+			position: absolute;
+			z-index: 1;
+			transform: translateX(2rem);
+		}
+	}
+}
