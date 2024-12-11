@@ -1,0 +1,23 @@
+.about-main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	// padding-top: 1rem;
+	// padding-right: 2rem;
+	.about-title-container {
+		height: calc(((100vh / 6) * 5) / 3);
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		transform: translateY(-9px);
+		padding-right: 2rem;
+		h1 {
+			font-family: var(--font-major);
+			font-weight: 400;
+			font-size: 10rem;
+		}
+	}
+}
